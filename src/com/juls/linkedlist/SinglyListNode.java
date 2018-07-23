@@ -49,7 +49,7 @@ public class SinglyListNode {
         return this.next.getLastElement();
     }
 
-    private SinglyListNode getObject(int index) {
+    public SinglyListNode getObject(int index) {
         if(index==0)
             return this;
 
@@ -87,4 +87,7 @@ public class SinglyListNode {
         }
     }
 
+    public void setNext(SinglyListNode next) {
+        this.next = next;
+    }
 }
