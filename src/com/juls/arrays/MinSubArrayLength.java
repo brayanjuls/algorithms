@@ -38,7 +38,7 @@ public class MinSubArrayLength {
 
 
         }
-        return val;
+        return val; 
     }
 
     public static void main(String[] args) {
